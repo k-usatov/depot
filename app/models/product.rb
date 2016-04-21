@@ -7,4 +7,7 @@ with: %r{\.(gif|jpg|png)\Z}i,
 message: 'must be a URL for GIF, JPG or PNG image.'
 # URL должен указывать на изображение формата GIF, JPG или PNG
 }
+def self.latest
+Product.order(:updated_at).last
+end
 end
