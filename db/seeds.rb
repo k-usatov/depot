@@ -8,7 +8,7 @@
 #---
 # encoding: utf-8
 Product.delete_all
-Product.create!(title: 'CoffeeScript',
+Product.create!(title:'CoffeeScript',
   description: 
     %{<p>
         CoffeeScript is JavaScript done right. It provides all of JavaScript's
@@ -17,10 +17,10 @@ Product.create!(title: 'CoffeeScript',
 	shows you how to hold onto all the power and flexibility of JavaScript
 	while writing clearer, cleaner, and safer code.
       </p>},
-  image_url:   'http://2.bp.blogspot.com/-bKdgLp-rL3g/UdAnQF7JxaI/AAAAAAAAAJo/FAYc_3yjSNs/s210/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png',    
+  image_url:'http://2.bp.blogspot.com/-bKdgLp-rL3g/UdAnQF7JxaI/AAAAAAAAAJo/FAYc_3yjSNs/s210/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png',    
   price: 36.00)
 # . . .
-Product.create!(title: 'Rails Test Prescriptions',
+Product.create!(title:'Rails Test Prescriptions',
   description: 
     %{<p>
         <em>Rails Test Prescriptions</em> is a comprehensive guide to testing
@@ -30,20 +30,20 @@ Product.create!(title: 'Rails Test Prescriptions',
         procedures for Rails 2 and Rails 3, and introduces popular add-ons,
         including Cucumber, Shoulda, Machinist, Mocha, and Rcov.
       </p>},
-  image_url: 'rtp.jpg',
+  image_url:'rtp.jpg',
   price: 34.95)
   # . . .
-  Product.create!(title: 'Programming Ruby 1.9 & 2.0',
+  Product.create!(title:'Programming Ruby 1.9 & 2.0',
   description:
     %{<p>
         Ruby is the fastest growing and most exciting dynamic language
         out there. If you need to get working programs delivered fast,
         you should add Ruby to your toolbox.
       </p>},
-  image_url: 'ruby.jpg',
+  image_url:'ruby.jpg',
   price: 49.95)
   # . . .
-  Product.create!(title: 'Ruby mine',
+  Product.create!(title:'Ruby mine',
   description:
     %{<p>
         RubyMine — коммерческая IDE для разработки программного обеспечения на Ruby компании JetBrains.
@@ -51,5 +51,5 @@ Product.create!(title: 'Rails Test Prescriptions',
 		Поддерживает популярные библиотеки, используемые в Ruby-приложениях 
 		(в том числе Bundler, RSpec, Shoulda, Cucumber, Git).
       </p>},
-  image_url: 'https://upload.wikimedia.org/wikipedia/ru/thumb/2/2e/RubyMine_logo.png/220px-RubyMine_logo.png',
+  image_url:'https://upload.wikimedia.org/wikipedia/ru/thumb/2/2e/RubyMine_logo.png/220px-RubyMine_logo.png',
   price: 79.95)
