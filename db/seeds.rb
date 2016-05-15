@@ -53,3 +53,12 @@ Product.create!(title:'Rails Test Prescriptions',
       </p>},
   image_url:'https://upload.wikimedia.org/wikipedia/ru/thumb/2/2e/RubyMine_logo.png/220px-RubyMine_logo.png',
   price: 79.95)
+  # . . .
+  Product.create!(title:'C++,S.Prata',
+  description:
+    %{<p>
+        This book is a thoroughly tested, quality made and one of the best books on the C ++ programming language (C ++ 11) for programmers and developers. 
+		This classic book teaches C ++ programming principles, including structured code and top-down design.
+      </p>},
+  image_url:'http://img11.nnm.me/4/3/8/2/7/e5b41a7123d01a7e7046fb09fd9.jpg',
+  price: 25.35)

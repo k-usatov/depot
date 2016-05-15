@@ -46,10 +46,17 @@ class ProductsControllerTest < ActionController::TestCase
   end
 
   test "should destroy product" do
-    assert_difference('Product.count', -1) do
+    assert_difference('Product.count',-1) do
       delete :destroy, id: @product
     end
-
     assert_redirected_to products_path
+  end
+  
+  test "should get" do 
+	assert_select '.list_actions' do |elements|
+		elements.each do |element|
+			assert_select element, "a", 3 
+		end
+	end
   end
 end
